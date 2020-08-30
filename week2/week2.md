@@ -6,11 +6,11 @@
   * Conditional Expressions/Statements
 
 ### Warm-up problems
-1. What variable type would you (most likely) use if you want to store **a student's midterm grade**?
+1. What variable type would you (most likely) use if you want to store **a student's midterm score**?
     - what about **GPA**?
-2. Think about how to add **1 point extra credit** to an existing variable named _midterm_grade_.
+2. Think about how to add **1 point extra credit** to an existing variable named _midtermScore_.
     - Now, think about how to apply a **10%** penalty to an existing variable named _hw1_.
-3. How would you check if _final_score_ passes an A cutoff of **90**?
+3. How would you check if _finalScore_ passes an A cutoff of **90**?
 4. How do you know if a student gets **As** on all homework assignments (e.g. _hw1_, _hw2_,...)?
 
 ### Combine them altogether!
@@ -28,13 +28,13 @@ You wrote 3 homework assignments and took one midterm exam. On homework 1, you g
     //int hw1 = 87;
     //int hw2 = 93;
     //int hw3 = 82;
-    //double midterm_score = 90.5;
+    //double midtermScore = 90.5;
 
     // or if you like fraction more
     double hw1 = 0.87;
     double hw2 = 0.93;
     double hw3 = 0.82;
-    double midterm_score = 0.905;
+    double midtermScore = 0.905;
   ```
 </details>
 <br></br>
@@ -47,11 +47,11 @@ Now Dr. Evil announced that each of your homework weighs **10%** of your total g
 
   ```java
     // using fraction
-    double final_score = 0.93;
-    double hw_avg = (hw1 + hw2 + hw3) / 3;
-    double total_grade = 0.3 * hw_avg + 0.3 * midterm_score + 0.4 * final_score;
+    double finalScore = 0.93;
+    double hwAverge = (hw1 + hw2 + hw3) / 3;
+    double totalGrade = 0.3 * hwAverage + 0.3 * midtermScore + 0.4 * finalScore;
   ```
-  Numerically `total_grade = 0.9015`.
+  Numerically `totalGrade = 0.9015`.
 </details>
 <br></br>
 
@@ -63,8 +63,8 @@ While now is the tricky part. You somehow actually got 93 on your final. You are
 
   ```java
     // store the information in a boolean
-    boolean get_A = total_grade >= 0.90;
-    if (get_A) {
+    boolean getA = totalGrade >= 0.90;
+    if (getA) {
       System.out.println("Haha! I get A!");
     } else {
       System.out.println("Oops not an A.");
@@ -84,13 +84,13 @@ Come on, you know Dr. Evil won't let you easily walk away from his course! Dr. E
   ```java
     // get updated final
     if (hw3 < 0.85) {
-      final_score *= 0.98;
+      finalScore *= 0.98;
     }
-    total_grade = 0.3 * hw_avg + 0.3 * midterm + 0.4 * final_score;
+    totalGrade = 0.3 * hwAverage + 0.3 * midtermScore + 0.4 * finalScore;
 
     // see if you will be thrown to the dungeon
-    if (total_grade >= 0.90) {
-      if (final_score >= 0.90 || hw_avg >= 0.85) {
+    if (totalGrade >= 0.90) {
+      if (finalScore >= 0.90 || hwAverage >= 0.85) {
         System.out.println("Finally, an A!");
       } else {
         System.out.println("It's. Just. Brutal...");
@@ -99,5 +99,5 @@ Come on, you know Dr. Evil won't let you easily walk away from his course! Dr. E
       System.out.println("Well, maybe I can do better.");
     }
   ```
-  Since your _hw3_ is 0.82, you suffer a 2% penalty on final. Hence, you `final_score = 0.9114`. However, now your `total_grade = 0.89806`. Dungeon you go!
+  Since your _hw3_ is 0.82, you suffer a 2% penalty on final. Hence, you `finalScore = 0.9114`. However, now your `totalGrade = 0.89806`. Dungeon you go!
 </details>
