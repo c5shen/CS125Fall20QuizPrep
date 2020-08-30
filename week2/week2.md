@@ -84,7 +84,7 @@ Come on, you know Dr. Evil won't let you easily walk away from his course! Dr. E
   ```java
     // get updated final
     if (hw3 < 0.85) {
-      final_score *= 0.99;
+      final_score *= 0.98;
     }
     total_grade = 0.3 * hw_avg + 0.3 * midterm + 0.4 * final_score;
 
