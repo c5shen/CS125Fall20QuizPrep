@@ -67,7 +67,7 @@ While now is the tricky part. You somehow actually got 93 on your final. You are
     if (get_A) {
       System.out.println("Haha! I get A!");
     } else {
-      System.out.println("Oops a B. At least I didn't fail.");
+      System.out.println("Oops not an A.");
     }
   ```
   Yes, you get an A!
