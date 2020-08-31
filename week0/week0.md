@@ -1,4 +1,4 @@
-# Quiz Preparation for Week 2
+# Quiz Preparation for Week 0
 
 ### Concepts
   * Variables/Types
