@@ -39,14 +39,14 @@ So now Dr. Evil has just announced that, if any of these scores, fall below **80
           System.out.println("Oops, I failed");
         }
        }
-       
+
        //or
-       
+
        int i = 0;
        while (i < scores.length) {
         if (scores[i] < 80.0) {
           System.out.println("Oops, I failed");
-        } 
+        }
         i++;
        }
   ```
@@ -83,8 +83,9 @@ Now obviously, since you're worried about your average in this class. You decide
         }
         return sum/arr.length;
        }
-       
-       System.out.println(average(scores));
+
+      // somewhere else
+      System.out.println(average(scores));
   ```
 </details>
 <br></br>
