@@ -1,4 +1,4 @@
-# Quiz Preparation for Week XXX
+# Quiz Preparation for Week 1
 
 ### Concepts
   * Arrays
