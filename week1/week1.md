@@ -37,6 +37,7 @@ So now Dr. Evil has just announced that, if any of these scores, fall below **80
       for (int i = 0; i < scores.length; i++) {
         if (scores[i] < 80.0) {
           System.out.println("Oops, I failed");
+          break;
         }
        }
 
@@ -46,6 +47,7 @@ So now Dr. Evil has just announced that, if any of these scores, fall below **80
        while (i < scores.length) {
         if (scores[i] < 80.0) {
           System.out.println("Oops, I failed");
+          break;
         }
         i++;
        }
@@ -63,6 +65,7 @@ Dr Evil now feels that he has been too evil, so he offers 1% extra credit to be 
       for (int i = 0; i < scores.length; i++) {
         if (scores[i] == 100.0){
           System.out.println("Yay");
+          break;
          }
         }
   ```
