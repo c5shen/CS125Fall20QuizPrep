@@ -21,7 +21,7 @@
       String a = "I have\nan\napple";
       String[] out = a.split("\n");
       ```
-  10. You want to make sure uninitialized variables are not checked accidentally (bad bad!).
+  10. You want to make sure uninitialized variables are not referred to accidentally (bad bad!).
 
 ### Example codes for the practice
 ##### 1. Parsing the data
