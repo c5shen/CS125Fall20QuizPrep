@@ -1,4 +1,4 @@
-# Quiz Preparation for Week 1
+# Quiz Preparation for Week 2
 
 ### Concepts
   * More functions
