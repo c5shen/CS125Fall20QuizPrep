@@ -73,7 +73,7 @@ String[] refSales = getDavesCopy();
 
 
 ##### 3. Report to GabeN
-  * **To solve**: Write a function _report_ to translate each sale to a sentence describing its status. It should look like this:
+  * **To solve**: Write a function _report_ to translate each sale to a sentence describing its status and print it out. The function should return **void**. The translated sentence should look like this:
   ```bash
   [Game Name] total sale is $[sale number] mil. Comparing to last week, it changes [percent change]%.
-  ```
+  ``` 
