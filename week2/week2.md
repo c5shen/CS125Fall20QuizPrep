@@ -37,7 +37,7 @@
       ```
   8. Give some examples of mutable types and immutable types.
   9. How do you parse a **String** "I have\nan\napple" based on line break (character "\n")? What would you get?
-  10. Why do you want to check for **null**?
+  10. Why do you want to check whether a variable/object is **null** at the start of a function?
 
 _(Solutions in a separate file)_
 
