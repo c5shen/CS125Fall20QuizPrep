@@ -1,4 +1,4 @@
-# Quiz Preparation for Week 4
+# Quiz Preparation for Week 5
 
 ### Concepts
   * Objects
@@ -13,7 +13,7 @@
   3. What does Encapsulation mean?
 
 ### Combining it all together!
-We are going to define a class named GradeReport. 
+We are going to define a class named GradeReport.
   1. Define a class named GradeReport. Your class should store two **private** variables **name** and **gpa**
   <details>
   <summary>Spoiler!</summary>
@@ -59,7 +59,7 @@ We are going to define a class named GradeReport.
         public String getName() {
           return name;
         }
-        public String getGPA() {
+        public double getGPA() {
           return gpa;
         }
       }
@@ -88,7 +88,7 @@ We are going to define a class named GradeReport.
         public void setName(String n) {
           name = n;
         }
-        public void getGPA(double g) {
+        public void setGPA(double g) {
           gpa = g;
         }
       }
