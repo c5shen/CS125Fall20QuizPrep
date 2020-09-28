@@ -29,6 +29,7 @@
 
 ### Combining it all together!
 We are going to define a class named GradeReport.
+
   1. Define a class named GradeReport. Your class should store two **private** variables **name** and **gpa**
   <details>
   <summary>Spoiler!</summary>
@@ -49,10 +50,10 @@ We are going to define a class named GradeReport.
       public class GradeReport {
         private String name;
         private double gpa;
-        public GradeReport (String n, double g) {
+        public GradeReport (String setName, double setGPA) {
           //you can add assert statements to check for invalid inputs, but for now we are just going to assume these are valid.
-          name = n;
-          gpa = g;
+          name = setName;
+          gpa = setGPA;
         }
       }
   ```
@@ -66,10 +67,10 @@ We are going to define a class named GradeReport.
       public class GradeReport {
         private String name;
         private double gpa;
-        public GradeReport (String n, double g) {
+        public GradeReport (String setName, double setGPA) {
           //you can add assert statements to check for invalid inputs, but for now we are just going to assume these are valid.
-          name = n;
-          gpa = g;
+          name = setName;
+          gpa = setGPA;
         }
         public String getName() {
           return name;
@@ -89,10 +90,10 @@ We are going to define a class named GradeReport.
       public class GradeReport {
         private String name;
         private double gpa;
-        public GradeReport (String n, double g) {
+        public GradeReport (String setName, double setGPA) {
           //you can add assert statements to check for invalid inputs, but for now we are just going to assume these are valid.
-          name = n;
-          gpa = g;
+          name = setName;
+          gpa = setGPA;
         }
         public String getName() {
           return name;
@@ -100,11 +101,11 @@ We are going to define a class named GradeReport.
         public double getGPA() {
           return gpa;
         }
-        public void setName(String n) {
-          name = n;
+        public void setName(String setName) {
+          name = setName;
         }
-        public void setGPA(double g) {
-          gpa = g;
+        public void setGPA(double setGPA) {
+          gpa = setGPA;
         }
       }
   ```
@@ -119,10 +120,10 @@ We are going to define a class named GradeReport.
    public class GradeReport {
         private String name;
         private double gpa;
-        public GradeReport (String n, double g) {
+        public GradeReport (String setName, double setGPA) {
           //you can add assert statements to check for invalid inputs, but for now we are just going to assume these are valid.
-          name = n;
-          gpa = g;
+          name = setName;
+          gpa = setGPA;
         }
         public String getName() {
           return name;
@@ -130,11 +131,11 @@ We are going to define a class named GradeReport.
         public double getGPA() {
           return gpa;
         }
-        public void setName(String n) {
-          name = n;
+        public void setName(String setName) {
+          name = setName;
         }
-        public void setGPA(double g) {
-          gpa = g;
+        public void setGPA(double setGPA) {
+          gpa = setGPA;
         }
         public void printReport() {
           System.out.println(name + " - " + gpa + " GPA");
