@@ -10,7 +10,22 @@
   1. What is an object in Java?
   2. What is a Constructor?
   3. How many constructors can a class have? What does constructor overloding mean?
-  3. What does Encapsulation mean?
+  4. What does Encapsulation mean?
+  5. What are private variables and how do we read and write them?
+  6. How would you define a getter and setter for a field called `firstName`?
+  7. What is the mistake in this code? 
+  
+    ```java
+    public class Course {
+      private String name;
+      private int number;
+      public Course(String nameNew, int num) {
+        nameNew = name;
+        num = number;
+      }
+    }
+    ```
+ 8. Lets say you have to model a `Triangle` in Java and add a function for it's perimeter. What will be your variables and what will be your functions? Don't worry about getters and setters on this one. 
 
 ### Combining it all together!
 We are going to define a class named GradeReport.
