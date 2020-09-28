@@ -15,7 +15,7 @@
   6. How would you define a getter and setter for a field called `firstName`?
   7. What is the mistake in this code? 
   
-    ```java
+    
     public class Course {
       private String name;
       private int number;
@@ -24,7 +24,7 @@
         num = number;
       }
     }
-    ```
+    
  8. Lets say you have to model a `Triangle` in Java and add a function for it's perimeter. What will be your variables and what will be your functions? Don't worry about getters and setters on this one. 
 
 ### Combining it all together!
