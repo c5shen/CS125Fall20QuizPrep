@@ -110,3 +110,36 @@ We are going to define a class named GradeReport.
   ```
 </details>
 <br></br>
+
+ 5. Now add a function to print a grade report `void printReport()`. Think about if this should be `public` or `private`. The output should be like `Chuchu - 1.7 GPA`
+   <details>
+ <summary>Spoiler!</summary>
+ 
+   ```java
+   public class GradeReport {
+        private String name;
+        private double gpa;
+        public GradeReport (String n, double g) {
+          //you can add assert statements to check for invalid inputs, but for now we are just going to assume these are valid.
+          name = n;
+          gpa = g;
+        }
+        public String getName() {
+          return name;
+        }
+        public double getGPA() {
+          return gpa;
+        }
+        public void setName(String n) {
+          name = n;
+        }
+        public void setGPA(double g) {
+          gpa = g;
+        }
+        public void printReport() {
+          System.out.println(name + " - " + gpa + " GPA");
+        }
+      }
+   ```
+   <details>
+   </br> 
