@@ -7,7 +7,7 @@ _**variable and field**: interchangable_
 _**instance and object**: interchangable_
 
 ### Concepts
-  * [Static function/variable](#static-function/variable) (09/28)
+  * [Static function/variable](#static-function-variable) (09/28)
   * [Inheritance](#inheritance) (09/29)
     - overriding functions
   * [Polymorphism](#polymorphism) (09/30)
