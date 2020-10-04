@@ -54,9 +54,9 @@
   1.
   ```java
   public class Course {
-    private String name;
-    private int attendance;
-    private String professor;
+    protected String name;
+    protected int attendance;
+    protected String professor;
 
     public Course(String setName, int setAttd, String prof) {
       name = setName;
@@ -70,7 +70,7 @@
   2.
   ```java
   public class CS10025 extends Course {
-    private double gpa;
+    protected double gpa;
 
     public CS10025(String setName, int setAttd, String prof, double setGPA) {
       super(setName, setAttd, prof);
