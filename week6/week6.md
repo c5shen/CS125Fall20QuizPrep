@@ -86,4 +86,17 @@ _**instance and object**: interchangable_
   13. How do you define a copy constructor?
 
 ### Combining it all together!
-Whew! That's a lot of materials above huh?
+Whew, that's a lot of materials huh? Let's try to make the rest of material fun and intellectually stimulating!
+
+You are hired by Professor Amazing to do some attendance system design work, for an amazing pay at $4/hour. Illegally underpaid or not, you have no choice but to work, and your next big job is to come up with a structure that manages course information.
+
+1. Design a class named **Course**, which contains three variables: _name_ (String), _attendance_ (int), _professor_ (String). In addition, you want to have a constructor that will initialize the three variables (make sure to assert that the attendance is non-negative).
+
+2. Although your class **Course** has quite enough information covered, Professor Amazing wants to specifically add an extension to fit his own course in. He's teaching CS10025 and wants you to, based on **Course**, <u>add in a new variable to indicate the class _gpa_ (double)</u>, and <u>print out "This is Amazhingu teaching!"</u> when an instance is constructed. Please fulfill his wishes.
+
+3. Another professor, Professor Splendid is also teaching another section of CS10025. Since she also will use this extended attendance class CS10025, Professor Amazing wants you to override **equals()** function to make sure the objects can be distinguished. Specifically, (1) <u>the _name_ should be the same</u>, (2) <u> if the _professor_ is different, then return false</u>.
+
+4. The department is unhappy about Professor Amazing's usage of the non-standard **Course** extension, as there might be other professors who don't use type **CS10025** but still teach CS10025. They want you to make sure the comparison in **equals()** also takes care of this (the parameter might be of type **Course**). That is, <u>if the object to compare is type of **Course**, you should also return **true** if the course name matches</u>.
+
+##### Bonus
+What if: you want check if a Course/CS10025 object is a given course by comparing to a String? E.g. you have an object **other** and a String **s** indicating a course name, and you want to have **other.equals(s)** to return **true** if the course name matches.

@@ -49,3 +49,70 @@
     }
   }
   ```
+
+  ### Combining it all together!
+  1.
+  ```java
+  public class Course {
+    private String name;
+    private int attendance;
+    private String professor;
+
+    public Course(String setName, int setAttd, String prof) {
+      name = setName;
+      assert setAttd >= 0 : "attendance needs to be non-negative.";
+      attendance = setAttd;
+      professor = prof;
+    }
+  }
+  ```
+
+  2.
+  ```java
+  public class CS10025 extends Course {
+    private double gpa;
+
+    public CS10025(String setName, int setAttd, String prof, double setGPA) {
+      super(setName, setAttd, prof);
+      gpa = setGPA;
+      System.out.println("This is Amazhingu teaching!");
+    }
+  }
+  ```
+
+  3.
+  ```java
+  public class CS10025 extends Course {
+    //...
+
+    @Override
+    public boolean equals(Object other) {
+      if (other == null || !(other instanceof CS10025)) {
+        return false;
+      }
+      CS10025 c = (CS10025) other;
+      return name.equals(c.name) && professor.equals(c.professor);
+    }
+  }
+  ```
+
+  4.
+  ```java
+  public class CS10025 extends Course {
+    //...
+
+    @Override
+    public boolean equals(Object other) {
+      if (other == null) {
+        return false;
+      }
+      // Notice, even if "other" is of type CS10025,
+      // it is still an instance of Course, as CS10025
+      // extends Course. So this if statement is sufficient
+      if (other instanceof Course) {
+        Course c = (Course) other;
+        return name.equals(c.name);
+      }
+    }
+  }
+  ```
