@@ -7,7 +7,7 @@ _**variable and field**: interchangable_
 _**instance and object**: interchangable_
 
 ### Concepts
-  * [Static function/variable](#static-function-variable) (09/28)
+  * [Static function/variable](#static-function) (09/28)
   * [Inheritance](#inheritance) (09/29)
     - overriding functions
   * [Polymorphism](#polymorphism) (09/30)
@@ -18,7 +18,7 @@ _**instance and object**: interchangable_
     - designing copy constructor
 
 ### Warm-ups problems
-##### Static function/variable
+##### Static function
   1. What is a **static function** for a class? What's its difference from an **instance function**?
   2. A static function can/cannot do ______?
   3. What does keyword _final_ do?
