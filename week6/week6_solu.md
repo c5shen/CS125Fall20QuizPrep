@@ -116,3 +116,11 @@
     }
   }
   ```
+  
+  Bonus:
+  ```java
+  public boolean equals(String other) {
+    var newStr = name + "-" + professor;
+    return newStr.equals(other);
+  }
+  ```
