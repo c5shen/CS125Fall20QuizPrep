@@ -20,7 +20,7 @@ _**instance and object**: interchangable_
 ### Warm-ups problems
 ##### Static function
   1. What is a **static function** for a class? What's its difference from an **instance function**?
-  2. A static function can/cannot do ______?
+  2. A static function can/cannot do ______ in terms of variable access?
   3. What does keyword _final_ do?
 
 ##### Inheritance
@@ -50,14 +50,14 @@ _**instance and object**: interchangable_
   Bird b = new Bird();
   isPenguin(b);
   ```
-  9. What is upcasting? Given the following codes, what can **Penguin** be upcast to?
+  9. What is upcasting? Given the following code, what can **Penguin** be upcast to?
   ```java
   public class Animal { }
   public class Bird extends Animal { }
   public class Penguin extends Bird { }
   ```
 
-  10. Assume we have the following codes, will there be an error? Why?
+  10. Assume we have the following code, will there be an error? Why?
   ```java
     public class Penguin extends Bird {
       public void swim() {}
@@ -67,7 +67,7 @@ _**instance and object**: interchangable_
     b.swim();
   ```
 
-  11. Assume we have the following codes, will there be an error? Why? _(Hint: this is about down casting)_
+  11. Assume we have the following code, will there be an error? Why? _(Hint: this is about down casting)_
   ```java
     public class Penguin extends Bird {
       public void swim() { }
