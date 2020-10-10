@@ -3,7 +3,7 @@
 ### Concepts
   * Objects
   * Constructors
-  * Encapsultion
+  * Encapsulation
 
 
 ### Warm-ups problems
