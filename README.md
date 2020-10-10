@@ -10,7 +10,7 @@ Current finished up to week 7.
    * Operations
    * Conditional Expressions/Statements
   
-  [**=> week1**](https://github.com/c5shen/CS125Fall20QuizPrep/blob/master/week1/week1.md)
+  [**week1**](https://github.com/c5shen/CS125Fall20QuizPrep/blob/master/week1/week1.md)
    * Arrays
    * Loops
    * Algorithms I
