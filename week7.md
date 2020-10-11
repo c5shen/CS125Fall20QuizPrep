@@ -18,7 +18,7 @@
 
   ```java
       import java.util.Random
-      public class Thing {
+      public class Thing implements Cloneable {
          private String name;
          private String type;
          public class Thing(String n, String t) {
@@ -31,6 +31,10 @@
           type = other.type;
          }
        
+         public Object clone() throws CloneNotSupportedException {
+          return super.clone();
+         }
+         
          public static boolean isReference(Thing a, Thing b) {
           assert a != null;
           assert b != null;
@@ -42,7 +46,7 @@
           Thing[] shallow = new Thing[arr.length];
           Thing[] deep = new Thing[arr.length];
           for (int i = 0; i < arr.length; i++) {
-            shallow[i] = arr[i].clone();
+            shallow[i] = (Thing) arr[i].clone();
             deep[i] = new Thing(arr[i]);
           }
           Thing[][] output = {shallow, deep};
