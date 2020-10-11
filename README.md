@@ -40,4 +40,9 @@ Current finished up to week 7.
    * Polymorphism
    * Equality and Copy Constructor
   
-  #### week7 (working)
+  [**week7**](https://github.com/c5shen/CS125Fall20QuizPrep/blob/master/week7/week7.md)
+   * References
+   * Polymorphism
+   * Memory Management
+   * Imports and Libraries
+   * Serialization
