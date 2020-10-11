@@ -14,7 +14,7 @@
 ## Practice Problem
 * Define a class named *Thing* with two **private** fields, a String _name_ and a String _type_.
 * Write a public constructor with two String inputs that update the values of these fields.
-* Create a **public class method** _isReference_ that takes in two Thing objects, and returns *True* only if both references are equal. You should *assert* that your objects are not null.
+* Write a **public class method** _isReference_ that takes in two Thing objects, and returns *True* only if both references are equal. You should *assert* that your objects are not null.
 * Write a **public class method** named _copy_ that takes in an array of Things and returns an array containing two Things arrays, one with a shallow copy of all the elements in the input array and another that returns a deep copy of all the elements in the input array. (So, your function should return a 2D array). _(Assume that Thing has an existing copy constructor)_
 * Write a **public class method** named _randomThings_ that takes in an array of Thing and prints out (does not return!) 4 random "things" from that array. (You might wanna import a library for this)
 
