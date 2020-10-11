@@ -27,8 +27,7 @@
          }
          
          public class Thing(Thing other) {
-          name = other.name;
-          type = other.type;
+          // assume the implementation is given
          }
        
          public Object clone() throws CloneNotSupportedException {
@@ -52,9 +51,10 @@
           Thing[][] output = {shallow, deep};
           return output;
           }
+          
           public void randomThings(Thing[] arr) {
             //You will tell me this step by step
-           }
+          }
           
       }
   ```
