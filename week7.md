@@ -5,6 +5,12 @@
 4) Imports and Libraries
 5) Serialization
 
+## EMP session links (if you want to have some more practices)
+1. [EMP 10-06](https://cs199emp.netlify.app/dist/2020-10-06.html): Topics including Polymorphism/Casting/super/this
+2. [EMP 10-08](https://cs199emp.netlify.app/dist/2020-10-08.html): Topics including Polymorphism/Casting/shallow and deep copy/dot notation
+3. [EMP 10-13](https://cs199emp.netlify.app/dist/2020-10-13.html): Topics including libraries and imports/type inference/serialization
+
+
 ## Practice Problem 
 * Define a class named Thing with two *private fields*, a String *name* and a String *type*. 
 * Create a *public constructor* with two String inputs that update the values of these fields. 
