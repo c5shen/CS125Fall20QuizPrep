@@ -21,10 +21,16 @@
       public class Thing {
          private String name;
          private String type;
-         public class Thing (String n, String t) {
+         public class Thing(String n, String t) {
           name = n;
           type = t;
          }
+         
+         public class Thing(Thing other) {
+          name = other.name;
+          type = other.type;
+         }
+       
          public static boolean isReference(Thing a, Thing b) {
           assert a != null;
           assert b != null;
