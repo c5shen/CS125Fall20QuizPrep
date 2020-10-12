@@ -5,10 +5,32 @@
 4) Imports and Libraries
 5) Serialization
 
-## EMP session links (if you want to have some more practices)
+## EMP session links (if you want to have some more practice)
 1. [EMP 10-06](https://cs199emp.netlify.app/dist/2020-10-06.html): Topics including Polymorphism/Casting/super/this
 2. [EMP 10-08](https://cs199emp.netlify.app/dist/2020-10-08.html): Topics including Polymorphism/Casting/shallow and deep copy/dot notation
 3. [EMP 10-13](https://cs199emp.netlify.app/dist/2020-10-13.html): Topics including libraries and imports/type inference/serialization
+
+## Warm up
+
+1. How would you import a library in java? What if I wanted `Date` from `java.util`.
+
+2. Why is it considered bad to import libraries using `*` like `java.io.*`?
+
+3. Does Java have Garbage Collection? When does it decide to delete variables from memory?
+
+<details>
+  <summary>Answers!</summary>
+  
+  1. `import java.util.Date`
+  
+  2. Namespace pollution. You import too many things and it cluters your possible variable names and IDE autocomplete. Too many imports may break your compile.
+  
+  3. Java deletes variables once they are out of scope i.e. end of a loop, function, class etc.
+  
+  
+  
+  </details>
+<br></br>
 
 
 ## Practice Problem
