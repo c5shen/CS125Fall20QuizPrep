@@ -197,7 +197,7 @@ Relation closerTo100 = new Relation() {
 #### Lambda Expression
   1. **Functional programming** is a style of programming for which programs are constructed by applying and composing functions, while **object-oriented programming** (e.g. Java) is a style for which programs are constructed by manipulating objects.
   2. Java cannot store functions in variables (as opposing to what functional programming). However, Java can achieve some similar expression style called **lambda expression**. For example:
-  ```java
+```java
 interface Increment {
   int increment(int value);
 }
