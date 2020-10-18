@@ -2,7 +2,7 @@
 ## Authors: Chengze Shen, Rohan Khatu, Harsh Deep
 A repo where questions that summarize prior week's contents will be posted to help students prepare for the next week's quiz.
 
-Current finished up to week 7.
+Current finished up to week 8.
 
 ### Index
   [**week0**](https://github.com/c5shen/CS125Fall20QuizPrep/blob/master/week0/week0.md)
@@ -46,3 +46,9 @@ Current finished up to week 7.
    * Memory Management
    * Imports and Libraries
    * Serialization
+
+  [**week8**](https://github.com/c5shen/CS125Fall20QuizPrep/blob/master/week8/week8.md)
+   * Abstract
+   * Interface
+   * Anonymous Class
+   * Lambda Expression
