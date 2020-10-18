@@ -2,7 +2,7 @@
 ## Authors: Chengze Shen, Rohan Khatu, Harsh Deep
 A repo where questions that summarize prior week's contents will be posted to help students prepare for the next week's quiz.
 
-Current finished up to week 8.
+Current finished up to **week 8**.
 
 ### Index
   [**week0**](https://github.com/c5shen/CS125Fall20QuizPrep/blob/master/week0/week0.md)
