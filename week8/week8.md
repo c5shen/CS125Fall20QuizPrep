@@ -217,3 +217,33 @@ System.out.println(b.increment(10));
 ```
 ##### Practice 4
 See if you can convert the anonymous classes in practice 3 to lambda expressions.
+<details>
+<summary>Spoiler!</summary>
+
+```java
+interface Relation {
+  int relation(int a, int b);
+}
+
+// Remainder using lambda expression
+Relation remainder = (a, b) -> b % a;
+
+// Larger than using lambda expression
+Relation larger = (a, b) -> {
+  if (a > b) {
+    return a;
+  } else {
+    return b;
+  }
+};
+
+// Closer to 100 using lambda expression
+Relation closerTo100 = (a, b) -> {
+  if (Math.abs(a - 100) < Math.abs(b - 100)) {
+    return a;
+  } else {
+    return b;
+  }
+};
+```
+</details>
