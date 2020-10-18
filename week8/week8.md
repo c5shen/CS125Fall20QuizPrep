@@ -14,7 +14,7 @@
   1. Can be applied to both classes and methods, e.g.:
 ```java
 public abstract class Shape {
-// remember, abstract method doesn't have a body
+  // remember, abstract method doesn't have a body
   public abstract int sides();
 }
 ```
