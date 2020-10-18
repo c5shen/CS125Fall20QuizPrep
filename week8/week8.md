@@ -98,7 +98,7 @@ int other = a.funcB();
 Design a class named **Sequence** implementing **Comparable**. It contains an int array of length 5 named **seq**. The constructor should take in an int array, assert it to be not null and of length 5, and assign **seq** to its value.
 
 What's more, you need to override the **compareTo(Object o)** method, which should make sure **o** is **Sequence** type and do the following comparison:
-  * if <ins>all elements in **seq**</ins> are larger than <ins>the corresponding ones in **seq of o**</ins>, then return 1;
+  * if <ins>all elements in **seq**</ins> are larger than or equal to (except all are the same) <ins>the corresponding ones in **seq of o**</ins>, then return 1;
   * if ... are the same as ..., then return 0;
   * if any is smaller, then return -1;
 <details>
