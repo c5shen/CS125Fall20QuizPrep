@@ -4,11 +4,12 @@
   * [Abstract](#abstract)
   * [Interface](#interface)
   * [Anonymous Class](#anonymous-class)
-    - Usage with other class
-    - Usage with interface
-  * [Lambda Expression](#lambda)
+  * [Lambda Expression](#lambda-expression)
 
-### Quick Concept Overview
+### EMP Session Links
+1. [EMP 10-15](https://cs199emp.netlify.app/dist/2020-10-15.html): Topics including reference/abstract/interface
+
+### Quick Concept Overview & Practice
 ##### Abstract
   1. Can be applied to both classes and methods, e.g.:
   ```java
@@ -55,24 +56,44 @@
     int other = a.funcB();
   ```
   3. **Comparable** is a built-in java interface that allows you to implement the _compareTo()_ method for instance comparison.
+  4. **Iterator, Iterable** are two other built-in java interfaces that allow you to implement methods for enhanced for-loop (iterating items).
 
 ##### Anonymous Class
+  1. An _anonymous class_ does not have a name, must extend a class or implement an interface, is created immediately, and cannot provide a constructor. Syntax for example:
+  ```java
+    interface Test {
+      void test();
+    }
+    Test t = new Test() {
+      @Override
+      public void test() { }
+    };  // don't forget the semi-colon!
+    t.test();
+  ```
+  2. _Anonymous classes_ can be used to flexibly create inline instances that perform certain tasks the caller defines. Please review the lecture on [10/15/2020 - "Uses for Anonymous Classes"](https://cs125.cs.illinois.edu/lessons/anonymousclasses/#uses-for-anonymous-classes).
 
+##### Lambda Expression
+  1. **Functional programming** is a style of programming for which programs are constructed by applying and composing functions, while **object-oriented programming** (e.g. Java) is a style for which programs are constructed by manipulating objects.
+  2. Java cannot store functions in variables (as opposing to what functional programming). However, Java can achieve some similar expression style called **lambda expression**. For example:
+  ```java
+    interface Increment {
+      int increment(int value);
+    }
+    // method 1 - using anonymous class
+    Increment a = new Increment() {
+      @Override
+      public int increment(int value) {
+        return value + 1;
+      }
+    };
+    // method 2 - using lambda expression
+    Increment b = (value) -> value + 1;
 
-##### Lambda
+    // the following codes both print 11
+    System.out.println(a.increment(10));
+    System.out.println(b.increment(10));
+  ```
 
-
-### Warm-ups problems
-##### Abstract
-
-
-##### Interface
-
-
-##### Anonymous Class
-
-
-##### Lambda
 
 
 ### Combining it all together!
