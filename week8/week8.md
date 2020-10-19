@@ -9,6 +9,8 @@
 ### EMP Session Links
 1. [EMP 10-15](https://cs199emp.netlify.app/dist/2020-10-15.html): Topics including reference/abstract/interface
 
+2. [EMP 10-20](https://cs199emp.netlify.app/): Topics including interface/lambdas.
+
 ### Quick Concept Overview & Practice
 #### Abstract
   1. Can be applied to both classes and methods, e.g.:
