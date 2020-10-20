@@ -4,6 +4,8 @@ A repo where questions that summarize prior week's contents will be posted to he
 
 Current finished up to **week 8**.
 
+Also see [CS 199 EMP: Even More Practice](https://cs199emp.netlify.app/) for more review slides and practice problems. Live sessions every Tuesday and Thursday.
+
 ### Index
   [**week0**](https://github.com/c5shen/CS125Fall20QuizPrep/blob/master/week0/week0.md)
    * Variables/Types
