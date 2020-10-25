@@ -7,12 +7,18 @@
   * [week8](https://github.com/c5shen/CS125Fall20QuizPrep/blob/master/week8/week8.md) (Abstract, Interface, Anonymous Class, Lambda Expression)
   * week9
     - [Big-O Notation](#big-o-notation)
-    - Type Parameters
-    - Reimplement List
-    - Linked List
+    - [Type Parameters](#type-parameters)
+    - [Array List](#array-list)
+    - [Linked List](#linked-list)
 
 ### EMP Session Links
 1. [EMP 10-22](https://cs199emp.netlify.app/dist/2020-10_21.html): Topics including ArrayList, Practices with Leetcode.
 
 ### Concept Overview & Practice
 #### Big-O notation
+
+#### Type Parameters
+
+#### Array List
+
+#### Linked List
