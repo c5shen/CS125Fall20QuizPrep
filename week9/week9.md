@@ -5,7 +5,7 @@
   * [week6](https://github.com/c5shen/CS125Fall20QuizPrep/blob/master/week6/week6.md) (Static methods/fields, Inheritance, Polymorphism, Equality and Copy Constructor)
   * [week7](https://github.com/c5shen/CS125Fall20QuizPrep/blob/master/week7/week7.md) (References/Polymorphism, Memory Management, Imports and Libraries, Serialization)
   * [week8](https://github.com/c5shen/CS125Fall20QuizPrep/blob/master/week8/week8.md) (Abstract, Interface, Anonymous Class, Lambda Expression)
-  * week9
+  * week9 (Will not be on the midterm! Materials from last midterm upto Oct 19th (week8) will be on the midterm 1)
     - [Big-O Notation](#big-o-notation)
     - [Type Parameters](#type-parameters)
     - [Array List](#array-list)
