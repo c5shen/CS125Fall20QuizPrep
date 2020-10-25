@@ -45,6 +45,8 @@
   }
   ```
 
+---
+
 #### Type Parameters
   1. If not specified, List get function will return _Object_ type item. E.g. ```list.get(0)``` gives you the item at index 0 in **Object** type.
 
@@ -63,6 +65,8 @@ Is there an error in the following codes? If so what is it?
   pets.add(new Pet());
   pets.add(new Dog());
   ```
+
+---
 
 #### Array List
   1. An array list stores items in an array, which can adjust its size as the program runs. To implement the array list yourself, you would need to implement **get(int index)**, **set(int index, Object o)**, and **add(int index, Object o)**.
@@ -113,6 +117,8 @@ Is there an error in the following codes? If so what is it?
   }
   ```
 
+---
+
 #### Linked List
   1. A linked list contains a start (the first item in the list), and all the following items are connected by "links". In another word, the first item has a reference that points to the second item, then the second item has a reference to the third item, and so on:
   ```
@@ -161,6 +167,7 @@ public class SimpleLinkedList {
 ```
 </details>
 
+---
 
 #### Inner Class
   1. We could declare an inner(nested) class to be **private** so the inner class is "hidden" from the outer world, thus increasing encapsulation (preventing unauthorized parties to directly access certain elements).
