@@ -1,4 +1,4 @@
-# (Quiz)Midterm Preparation for Week 11
+# Quiz Prep Week 11
 
 ### Concepts
   ####  Concepts covered in week 9 review
