@@ -64,4 +64,7 @@ Also see [CS 199 EMP: Even More Practice](https://cs199emp.netlify.app/) for mor
 
   **week10** (no quiz, election day!)
   
-  week11
+  [**week11**](https://github.com/c5shen/CS125Fall20QuizPrep/blob/master/week11/week11.md)
+   * Hashing
+   * Maps
+   * Catching and throwing exceptions
