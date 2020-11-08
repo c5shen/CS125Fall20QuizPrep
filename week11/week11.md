@@ -14,7 +14,7 @@
 
 ### EMP Session Links
 
-1) [EMP 10-20](https://cs199emp.netlify.app/dist/2020-10-29.html)
+1) [EMP 10-29](https://cs199emp.netlify.app/dist/2020-10-29.html)
 2) [EMP 11-05](https://cs199emp.netlify.app/dist/2020-11-05.html)
 
 
