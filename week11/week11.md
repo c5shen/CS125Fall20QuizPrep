@@ -1,12 +1,12 @@
 # (Quiz)Midterm Preparation for Week 11
 
 ### Concepts
-  * Concepts covered in week 9 review
+  ####  Concepts covered in week 9 review
   * [Hashing](https://cs125.cs.illinois.edu/lessons/hashing/#java's-hashcode)
   * [Maps](https://cs125.cs.illinois.edu/lessons/maps/)
   
-  * Concepts covered in Week 10
-  * Exceptions
+  #### Concepts covered in Week 10
+  ##### Exceptions
    - [Catching](https://cs125.cs.illinois.edu/lessons/catchingexceptions/)
    - [Throwing](https://cs125.cs.illinois.edu/lessons/throwingexceptions/)
    - [Working with Exceptions](https://cs125.cs.illinois.edu/lessons/workingwithexceptions/)
