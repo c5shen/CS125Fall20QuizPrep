@@ -23,6 +23,7 @@
 
 1) [EMP 10-29](https://cs199emp.netlify.app/dist/2020-10-29.html)
 2) [EMP 11-05](https://cs199emp.netlify.app/dist/2020-11-05.html)
+3) [EMP 11-10](https://cs199emp.netlify.app/dist/2020-11-10.html)
 
 ### Internet theoretical questions
 1. Is the internet primarily wired or wireless?
