@@ -1,7 +1,14 @@
 # Quiz Prep Week 11
 
 ### Concepts
-  ####  Concepts covered in week 9 review
+  ####  Concepts covered in week 8 review (refer to [that](https://github.com/c5shen/CS125Fall20QuizPrep/blob/master/week9/week9.md) for practice)
+  * Big-O Notation
+  * Type Parameters
+  * Array List
+  * Linked List
+  * Inner Class
+
+  ####  Concepts covered in week 9
   * [Hashing](https://cs125.cs.illinois.edu/lessons/hashing/#java's-hashcode)
   * [Maps](https://cs125.cs.illinois.edu/lessons/maps/)
   
@@ -17,6 +24,61 @@
 1) [EMP 10-29](https://cs199emp.netlify.app/dist/2020-10-29.html)
 2) [EMP 11-05](https://cs199emp.netlify.app/dist/2020-11-05.html)
 
+### Internet theoretical questions
+1. Is the internet primarily wired or wireless?
+
+  <details>
+  <summary>Spoiler!</summary>
+ 
+  #### Wired. Your laptop or phone may be wireless but they just connect to access points and the rest of the international internet is wired because it's far more energy efficient, reliable and cheaper.
+  
+  </details>
+  <br></br>
+
+2. What are different types of cables that make up the internet? How do we decide which ones to pick?
+  <details>
+  <summary>Spoiler!</summary>
+ 
+  #### Many different cables exist. In class we looked at twisted pair CATV coaxial cables and glass based fibre optic cables. We decide based on the range we want (100m or kilometres), cost of cabling, bandwidth and speed. 
+  
+  </details>
+  <br></br>
+
+3. Why do we have internet protocols? Who implements these protocols?
+  <details>
+  <summary>Spoiler!</summary>
+ 
+  #### We need internet protocols because computers are bad at inferring what the incoming data (packets) is by context, so we define the structure of the packet and what to do with it. The protocols are just a set of rules (like interfaces) and it's up to the programmer to implement.
+  
+  </details>
+  <br></br>
+
+4. Let's say I have a phone which I use to open Wikipedia on my Firefox browser, which is the server and which is the client?
+  <details>
+  <summary>Spoiler!</summary>
+ 
+  #### The phone running firefox is the client and Wikipedia has the server (in practice they have a giant cluster of them).
+  
+  </details>
+  <br></br>
+
+5. What is an I.P Address? What is your current IP Address? What information does it have?
+  <details>
+  <summary>Spoiler!</summary>
+ 
+  #### IP Addresses are a unique identifier of computers within a network. The address can indicate a lot about your location and where you are connecting as well.
+  
+  </details>
+  <br></br>
+
+6. When do we use `GET` and when do we use `POST`?
+  <details>
+  <summary>Spoiler!</summary>
+ 
+  #### We use `GET` when we want to recieve data (for example a news article or online profile) and `POST` when we want to send data (like creating a new news article or updating your online profile)
+  
+  </details>
+  <br></br>
 
 ### Concept Overview & Practice
 
