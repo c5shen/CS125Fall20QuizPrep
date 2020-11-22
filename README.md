@@ -72,3 +72,5 @@ Also see [CS 199 EMP: Even More Practice](https://cs199emp.netlify.app/) for mor
   [**week12**](https://github.com/c5shen/CS125Fall20QuizPrep/blob/master/week12/week12.pdf)
    * Recursion
    * Tree
+
+  [**week13**] (no quiz, happy Thanksgiving!)
