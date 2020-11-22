@@ -73,4 +73,4 @@ Also see [CS 199 EMP: Even More Practice](https://cs199emp.netlify.app/) for mor
    * Recursion
    * Tree
 
-  [**week13**] (no quiz, happy Thanksgiving!)
+  **week13** (no quiz, happy Thanksgiving!)
