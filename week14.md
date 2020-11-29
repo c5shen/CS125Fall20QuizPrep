@@ -126,3 +126,4 @@
   </details>
   <br></br>
 
+d) Create a static method named quickSort, that takes in an array of Comparables and sorts them using quick sort and returns the sorted array. 
