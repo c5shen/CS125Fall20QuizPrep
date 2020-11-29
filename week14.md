@@ -77,4 +77,52 @@
   </details>
   <br></br>
   
+  c) Create a static method named mergeSort, that takes in an array of ints, and sorts them using merge sort and returns the sorted array. This function also takes in an int start, and an int end. (Hint: Your class may need to extend Merge)
+  <details>
+   <summary>Spoiler!</summary>
+
+   ```Java
+   public class Sorter extends Merge{
+    
+    public static Comparable[] bubbleSort(Comparable[] arr) {
+      int n = arr.length; 
+      for (int i = 0; i < n - 1; i++) {
+        for (int j = 0; j < n - i - 1; j++) {
+          if (arr[j].compareTo(arr[j + 1]) > 0) { 
+            Comparable temp = arr[j]; 
+            arr[j] = arr[j + 1]; 
+            arr[j + 1] = temp; 
+          } 
+        }
+      }
+      return arr;
+    }
+  public static Comparable[] insertionSort(Comparable[] arr) {
+      int n = arr.length; 
+      for (int i = 1; i < n; ++i) { 
+        Comparable key = arr[i]; 
+        int j = i - 1; 
+        while (j >= 0 && arr[j].compareTo(key) > 0) { 
+          arr[j + 1] = arr[j]; 
+          j = j - 1; 
+        } 
+        arr[j + 1] = key; 
+      }
+      return arr;
+    }
+
+ public static int[] mergeSort(int[] arr, int start, int end) {
+      if (end - start < 2) {
+          int[] res = {arr[start]};
+          return res;
+        }
+        int mid = (start + end) / 2;
+        int[] left = mergeSort(arr, start, mid);
+        int[] right = mergeSort(arr, mid, end);
+        return merge(left, right);
+     }
+}
+   ```
+  </details>
+  <br></br>
 
