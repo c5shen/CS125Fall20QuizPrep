@@ -2,7 +2,7 @@
 ## Authors: Chengze Shen, Rohan Khatu, Harsh Deep
 A repo where questions that summarize prior week's contents will be posted to help students prepare for the next week's quiz.
 
-Current finished up to **week 12**.
+Current finished up to **week 14**.
 
 Also see [CS 199 EMP: Even More Practice](https://cs199emp.netlify.app/) for more review slides and practice problems. Live sessions every Tuesday and Thursday.
 
@@ -74,3 +74,6 @@ Also see [CS 199 EMP: Even More Practice](https://cs199emp.netlify.app/) for mor
    * Tree
 
   **week13** (no quiz, happy Thanksgiving!)
+
+  [**week14**](https://github.com/c5shen/CS125Fall20QuizPrep/blob/master/week14/week14.md)
+    * Sorting Algorithm
