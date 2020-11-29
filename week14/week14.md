@@ -55,21 +55,7 @@
 
    ```Java
    public class Sorter {
-    
-    public static Comparable[] bubbleSort(Comparable[] arr) {
-      int n = arr.length; 
-      for (int i = 0; i < n - 1; i++) {
-        for (int j = 0; j < n - i - 1; j++) {
-          if (arr[j].compareTo(arr[j + 1]) > 0) { 
-            Comparable temp = arr[j]; 
-            arr[j] = arr[j + 1]; 
-            arr[j + 1] = temp; 
-          } 
-        }
-      }
-      return arr;
-    }
-  public static Comparable[] insertionSort(Comparable[] arr) {
+     public static Comparable[] insertionSort(Comparable[] arr) {
       int n = arr.length; 
       for (int i = 1; i < n; ++i) { 
         Comparable key = arr[i]; 
@@ -93,35 +79,8 @@
 
    ```Java
    public class Sorter extends Merge{
-    
-    public static Comparable[] bubbleSort(Comparable[] arr) {
-      int n = arr.length; 
-      for (int i = 0; i < n - 1; i++) {
-        for (int j = 0; j < n - i - 1; j++) {
-          if (arr[j].compareTo(arr[j + 1]) > 0) { 
-            Comparable temp = arr[j]; 
-            arr[j] = arr[j + 1]; 
-            arr[j + 1] = temp; 
-          } 
-        }
-      }
-      return arr;
-    }
-  public static Comparable[] insertionSort(Comparable[] arr) {
-      int n = arr.length; 
-      for (int i = 1; i < n; ++i) { 
-        Comparable key = arr[i]; 
-        int j = i - 1; 
-        while (j >= 0 && arr[j].compareTo(key) > 0) { 
-          arr[j + 1] = arr[j]; 
-          j = j - 1; 
-        } 
-        arr[j + 1] = key; 
-      }
-      return arr;
-    }
 
- public static int[] mergeSort(int[] arr, int start, int end) {
+    public static int[] mergeSort(int[] arr, int start, int end) {
       if (end - start < 2) {
           int[] res = {arr[start]};
           return res;
@@ -142,47 +101,8 @@ d) Create a static method named quickSort, that takes in an array of ints, an in
 
    ```Java
    public class Sorter extends Merge{
-    
-    public static Comparable[] bubbleSort(Comparable[] arr) {
-      int n = arr.length; 
-      for (int i = 0; i < n - 1; i++) {
-        for (int j = 0; j < n - i - 1; j++) {
-          if (arr[j].compareTo(arr[j + 1]) > 0) { 
-            Comparable temp = arr[j]; 
-            arr[j] = arr[j + 1]; 
-            arr[j + 1] = temp; 
-          } 
-        }
-      }
-      return arr;
-    }
-    
-  public static Comparable[] insertionSort(Comparable[] arr) {
-      int n = arr.length; 
-      for (int i = 1; i < n; ++i) { 
-        Comparable key = arr[i]; 
-        int j = i - 1; 
-        while (j >= 0 && arr[j].compareTo(key) > 0) { 
-          arr[j + 1] = arr[j]; 
-          j = j - 1; 
-        } 
-        arr[j + 1] = key; 
-      }
-      return arr;
-    }
-
- public static int[] mergeSort(int[] arr, int start, int end) {
-      if (end - start < 2) {
-          int[] res = {arr[start]};
-          return res;
-        }
-        int mid = (start + end) / 2;
-        int[] left = mergeSort(arr, start, mid);
-        int[] right = mergeSort(arr, mid, end);
-        return merge(left, right);
-     }
-     
- private static int partition(int[] values) {
+  
+   private static int partition(int[] values) {
       if (values == null || values.length == 0) {
         return -1;
       }
