@@ -248,4 +248,10 @@ d) Create a static method named quickSort, that takes in an array of ints, an in
   <br></br>
   
   
+### Helpful Videos on
+* [Bubble Sort](https://www.youtube.com/watch?v=xli_FI7CuzA)
+* [Insertion Sort](https://www.youtube.com/watch?v=JU767SDMDvA)
+* [Merge Sort](https://www.youtube.com/watch?v=JU767SDMDvA)
+* [Quick Sort](https://www.youtube.com/watch?v=Hoixgm4-P4M)
+
 
