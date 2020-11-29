@@ -76,4 +76,4 @@ Also see [CS 199 EMP: Even More Practice](https://cs199emp.netlify.app/) for mor
   **week13** (no quiz, happy Thanksgiving!)
 
   [**week14**](https://github.com/c5shen/CS125Fall20QuizPrep/blob/master/week14/week14.md)
-    * Sorting Algorithm
+   * Sorting Algorithm
