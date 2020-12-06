@@ -1,6 +1,6 @@
 # Quiz(Midterm 2) Prep Week 15
 
-### Concepts for week 15
+### Concepts for week 15 (will not be on the midterm)
   * Generics
   * Streams
   * Kotlin! (optional)
