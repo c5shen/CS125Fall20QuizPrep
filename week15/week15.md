@@ -14,6 +14,9 @@
 ### EMP Session Links
 
 
+## We will be doing some prior material review and Q&A after today's material!
+
+
 ### Generics
 1. What is a classic usage of generic in Java (_Hint: you put items in it, you can extend it or shrink it, ..._)?
 <details>
