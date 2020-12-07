@@ -2,7 +2,7 @@
 ## Authors: Chengze Shen, Rohan Khatu, Harsh Deep
 A repo where questions that summarize prior week's contents will be posted to help students prepare for the next week's quiz.
 
-Current finished up to **week 14**.
+Current finished up to **week 15** (We are doing it!!).
 
 Also see [CS 199 EMP: Even More Practice](https://cs199emp.netlify.app/) for more review slides and practice problems. Live sessions every Tuesday and Thursday.
 
