@@ -31,7 +31,7 @@ See week9-14 review for EMP practice links.
   Linear search is O(n) and much better in almst every case. Binary research is O(log n) but sorting is O(n log n) making the overall complexity of the other approach O(n log n). However if you're lucky and the array is nearly sorted then this might be faster. Also if you have to search lots and lots of times it might be better to sort once so that each time the search can be more efficient.  
 </details>
 
-3. Write a program that sums the left most value and the right most value of a tree. What is the Big O complexity of this?
+3. Write a program that sums the left most value and the right most value of a tree. What is the Big O complexity of this? Can you do this iteratively and recurisvely?
 
 ### Generics
 1. What is a classic usage of generic in Java (_Hint: you put items in it, you can extend it or shrink it, ..._)?
@@ -118,4 +118,60 @@ It returns the product of all the inputs that are not multiples of 3, which is 4
 More succinct, composable, efficient. Can be parallelized.
 </details>
 
-To learn more about Kotlin checkout [CS 199: Intro to Kotlin Programming](https://kotlin.cs.illinois.edu/) and [Gentle Kotlin](https://gentlekotlin.com/cheatsheet). Harsh was the only staff when the course started last Spring and he'll be glad to answer 
+### Tree question answer
+
+Iterative:
+
+```java
+// barebones tree for example, your quiz/midterm uses more complicated stuff
+class Tree {
+  int value;
+  Tree left;
+  Tree right;
+}
+int sum(Tree t) {
+  int leftVal = 0;
+  Tree treeLeft = t.left;
+  while (treeLeft != null) {
+    leftVal = treeLeft.value;
+    treeLeft = treeLeft.left;
+  }
+  
+  int rightVal = 0;
+  Tree treeRight = t.right;
+  while (treeRight != null) {
+    rightVal = treeRight.value;
+    treeLeft = treeRight.left;
+  }
+  
+  return leftVal + rightVal;
+}
+```
+
+Recursive:
+```java
+int sum(Tree t) {
+  int leftVal = leftVal(t);
+  int rightVal = rightVal(t);
+  
+  return leftVal + rightVal;
+}
+
+int leftVal(Tree t) {
+  if (t.left == null) {
+    return t.value;
+  } 
+  return leftVal(t);
+}
+
+int rightVal(Tree t) {
+  if (t.right == null) {
+    return t.value;
+  }
+  return rightVal(t);
+}
+```
+
+### Kotlin
+
+To learn more about Kotlin checkout [CS 199: Intro to Kotlin Programming](https://kotlin.cs.illinois.edu/) and [Gentle Kotlin](https://gentlekotlin.com/cheatsheet). Harsh was the only staff when the course started last Spring and he'll be glad to answer. See you all there hopefully next semester!
