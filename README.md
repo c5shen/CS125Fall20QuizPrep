@@ -78,3 +78,8 @@ Also see [CS 199 EMP: Even More Practice](https://cs199emp.netlify.app/) for mor
   [**week14**](https://github.com/c5shen/CS125Fall20QuizPrep/blob/master/week14/week14.md)
    * Sorting Algorithm
    * Binary Search
+   
+   [**week15**](https://github.com/c5shen/CS125Fall20QuizPrep/blob/master/week15/week15.md)
+   * Streams
+   * Generics
+   * Review
