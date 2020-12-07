@@ -13,18 +13,43 @@
 
 ### EMP Session Links
 
+See week9-14 review for EMP practice links.
 
-## We will be doing some prior material review and Q&A after today's material!
+## We will be doing Q&A after today's material!
+
+### Older content review Reivew
+
+1. What makes Binary Search so efficient? What is the Big-O complexity of it?
+<details>
+  <summary>Spoiler!</summary>
+  It divides the space into half again and again making the steps equal to log_2 of the size. In big O that's O(log n).
+</details>
+
+2. Suppose you have an unsorted array and you want to search through all the items. Would it be better to do a linear search (for loop through all items) or sort and then take advantage of a binary search? Answer this in terms of Big O.
+<details>
+  <summary>Spoiler!</summary>
+  Linear search is O(n) and much better in almst every case. Binary research is O(log n) but sorting is O(n log n) making the overall complexity of the other approach O(n log n). However if you're lucky and the array is nearly sorted then this might be faster. Also if you have to search lots and lots of times it might be better to sort once so that each time the search can be more efficient.  
+</details>
+
+3. Write a `merge` function that merges two sorted lists and returns the new merged list in sorted order. What is the big O complexity of this function
+<details>
+  <summary>Spoiler!</summary>
+  It will be O(n).
+   
+</details>
+
+4. Write a program that sums the left most value and the right most value of a tree.
+
 
 
 ### Generics
 1. What is a classic usage of generic in Java (_Hint: you put items in it, you can extend it or shrink it, ..._)?
 <details>
   <summary>Spoiler!</summary>
-  List
+  List, Tree, Map etc.
 </details>
 
-2. What are the conventional names of generics for number/element/key/value?
+2. What are the conventional names of generics for number/element/key/value? (_Hint: This is how it appears on Java doc_)
 <details>
   <summary>Spoiler!</summary>
   N for number, E for element, K/V for key and value (in maps)
@@ -97,4 +122,8 @@ It returns the product of all the inputs that are not multiples of 3, which is 4
 
 3. Why do we use Streams?
 
-More succinct, composable, efficient.
+<details>
+<summary>Spoiler!</summary>
+More succinct, composable, efficient. Can be parallelized.
+</details>
+
