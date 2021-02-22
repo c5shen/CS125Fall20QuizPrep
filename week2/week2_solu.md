@@ -72,8 +72,8 @@ boolean checkErrors(String[] a, String[] b) {
     String[] itemA = a[i].split(",");
     String[] itemB = b[i].split(",");
     double saleA = Double.parseDouble(itemA[1]);
-    double saleB = Double.parseDouble(itemA[2]);
-    double percentA = Double.parseDouble(itemB[1]);
+    double saleB = Double.parseDouble(itemB[1]);
+    double percentA = Double.parseDouble(itemA[2]);
     double percentB = Double.parseDouble(itemB[2]);
     if (saleA != saleB || percentA != percentB) {
       return false;
